@@ -1,5 +1,14 @@
-.header-container{
+.header-container {
     /*Top heading selector */
     font-size:24px;
     display:flex;
 }
+
+.header-links {
+    display:flex;
+}
+
+.left-side, .right-side {
+    display:flex;
+}
+
