@@ -6,6 +6,7 @@
 
 .header-links {
     display:flex;
+    align-items: center;
 }
 
 .left-side, .right-side {
