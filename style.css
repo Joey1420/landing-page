@@ -4,7 +4,8 @@
     display:flex;
     align-items:center;
     background-color: #1F2937;
-    color: #F9FAF8
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 .header-links {
@@ -14,5 +15,9 @@
 
 .left-side, .right-side {
     display:flex;
+}
+
+.right-side {
+    margin-left:auto
 }
 
