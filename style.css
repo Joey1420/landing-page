@@ -2,6 +2,7 @@
     /*Top heading selector */
     font-size:24px;
     display:flex;
+    align-items:center;
 }
 
 .header-links {
