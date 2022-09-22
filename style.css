@@ -5,15 +5,18 @@
     align-items:center;
     background-color: #1F2937;
     color: #F9FAF8;
+    font-family: sans-serif;
     font-weight: bold;
-    margin: 0;
-    padding: 0;
+    padding: 8px;
 }
 
 .header-links {
     display:flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
 }
 
 .left-side, .right-side {
