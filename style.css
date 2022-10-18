@@ -6,7 +6,6 @@
     background-color: #1F2937;
     color: #F9FAF8;
     font-family: sans-serif;
-    font-weight: bold;
     padding: 8px;
 }
 
@@ -32,10 +31,11 @@
 
  .left-side{   
      font-size:24px;
+     font-weight:bold;
 }
 
-* {
-    margin: 0;
-    padding: 0;
+body {
+   margin: 0;
+   padding: 0;
 }
 
