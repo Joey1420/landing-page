@@ -45,3 +45,11 @@ body {
     align-items: flex-start;
 }
 
+.header-2{
+    display:flex;
+    justify-content: space-between;
+}
+
+.hero-text, .main-text{
+    font-size: 18px;
+}
