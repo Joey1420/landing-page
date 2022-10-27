@@ -57,3 +57,10 @@ body {
 .hero-text, .secondary-text{
     font-size:18px;
 }
+
+.sign-up{
+    background-color: #3882F6;
+    color: white;
+    border:none;
+    padding: 5px 20px;
+}
