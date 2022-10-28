@@ -2,6 +2,7 @@
     /*Top heading selector */
     font-size:24px;
     display:flex;
+    flex-direction: column;
     align-items:center;
     background-color: #1F2937;
     color: #F9FAF8;
@@ -11,17 +12,18 @@
 
 .header-links {
     display:flex;
-    align-items: center;
     justify-content: space-between;
     margin: 0;
     padding: 0;
     border:0;
     gap: 8px;
     list-style: none;
+    font-size: 18px;
 }
 
 .left-side, .right-side {
     display:flex;
+    margin: 15px 7px 15px 7px;
 }
 
 .right-side {
@@ -35,27 +37,32 @@
 }
 
 body {
+   display:flex;
+   flex-direction: column;
    margin: 0;
    padding: 0;
 }
 
 .hero-text{
     display:flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: flex-start;
 }
 
 .header-2{
     display:flex;
     justify-content: space-between;
+    margin: 15px 7px 15px 7px;
 }
 
 .hero-text, .main-text{
     font-size: 48px;
+    font-weight: bold;
 }
 
 .hero-text, .secondary-text{
     font-size:18px;
+    margin: 5px 0;
 }
 
 .sign-up{
@@ -63,4 +70,11 @@ body {
     color: white;
     border:none;
     padding: 5px 20px;
+    font-weight: bolder;
+    text-align:center;
+    margin: 10px 0;
+}
+
+*{
+    border: 2px solid red;
 }
