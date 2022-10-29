@@ -1,4 +1,4 @@
-.header-container {
+.header-container{
     /*Top heading selector */
     font-size:24px;
     display:flex;
@@ -13,7 +13,7 @@
 .header-links {
     display:flex;
     justify-content: space-between;
-    margin: 0;
+    margin-left: auto;
     padding: 0;
     border:0;
     gap: 8px;
@@ -21,19 +21,11 @@
     font-size: 18px;
 }
 
-.left-side, .right-side {
+.left-side{
     display:flex;
     margin: 15px 7px 15px 7px;
-}
-
-.right-side {
-    margin-left:auto;
-    font-size:18px;
- }   
-
- .left-side{   
-     font-size:24px;
-     font-weight:bold;
+    font-size:24px;
+    font-weight:bold;
 }
 
 body {
@@ -77,4 +69,14 @@ body {
 
 *{
     border: 2px solid red;
+}
+
+button:hover{
+    background-color: #5804FF;
+}
+
+.header-1{
+    display:flex;
+    justify-content: space-around;
+    gap: 100px;
 }
