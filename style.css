@@ -12,6 +12,7 @@
 }
 
 .header-links {
+    /*Right side, top heading*/
     display:flex;
     justify-content: space-between;
     margin-left: auto;
@@ -23,6 +24,7 @@
 }
 
 .left-side{
+    /*Left side, top heading*/
     display:flex;
     margin: 15px 7px 15px 7px;
     font-size:24px;
@@ -45,7 +47,7 @@ body {
 .header-2{
     display:flex;
     justify-content: space-between;
-    margin: 15px 7px 15px 7px;
+    margin: 15px 5px 15px 5px;
 }
 
 .hero-text, .main-text{
@@ -84,5 +86,5 @@ button:hover{
 
 .header-2 img {
     height:auto;
-    width:500px;
+    width: 500px;
 }
