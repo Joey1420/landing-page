@@ -36,31 +36,32 @@ body {
    flex-direction: column;
    margin: 0;
    padding: 0;
+   font-family: Roboto, sans-serif;
 }
 
-.hero-text{
+.hero-text {
     display:flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.header-2{
+.header-2 {
     display:flex;
     justify-content: space-between;
     margin: 15px 5px 15px 5px;
 }
 
-.hero-text, .main-text{
+.hero-text, .main-text {
     font-size: 48px;
     font-weight: bold;
 }
 
-.hero-text, .secondary-text{
+.hero-text, .secondary-text {
     font-size:18px;
     margin: 5px 0;
 }
 
-.sign-up{
+.sign-up {
     background-color: #3882F6;
     color: white;
     border:none;
@@ -68,6 +69,7 @@ body {
     font-weight: bolder;
     text-align:center;
     margin: 10px 0;
+    border-radius: 10px;
 }
 
 *{
@@ -85,6 +87,8 @@ button:hover{
 }
 
 .header-2 img {
+    /*Image selector */
     height:auto;
     width: 500px;
+    margin: auto 7em;
 }
