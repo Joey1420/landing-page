@@ -9,6 +9,7 @@
     font-family: sans-serif;
     padding: 8px;
     justify-content: space-between;
+    margin: 0;
 }
 
 .header-links {
@@ -18,7 +19,7 @@
     margin-left: auto;
     padding: 0;
     border:0;
-    gap: 8px;
+    gap: 20px;
     list-style: none;
     font-size: 18px;
 }
@@ -43,12 +44,13 @@ body {
     display:flex;
     flex-direction: column;
     align-items: flex-start;
+    align-self: center;
 }
 
 .header-2 {
     display:flex;
     justify-content: space-between;
-    margin: 15px 5px 15px 5px;
+    margin: 15px 5em 15px 5em;
 }
 
 .hero-text, .main-text {
@@ -83,7 +85,7 @@ button:hover{
 .header-1{
     display:flex;
     justify-content: space-around;
-    gap: 100px;
+    gap: 800px;
 }
 
 .header-2 img {
