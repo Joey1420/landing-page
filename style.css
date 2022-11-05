@@ -80,6 +80,7 @@ body {
 
 button:hover{
     background-color: #5804FF;
+    text-decoration: underline;
 }
 
 .header-1{
