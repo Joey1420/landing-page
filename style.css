@@ -163,6 +163,8 @@ button:hover{
     padding:50px;
     background-color: #3882F6;
     border-radius: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .action-wrapper{
