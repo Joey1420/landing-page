@@ -137,10 +137,50 @@ button:hover{
     font-style:italic;
     margin-left: 200px;
     margin-top: 32px;
+    margin-right: 200px;
 }
 
 .quote-author{
     align-self: flex-end;
     margin-bottom:32px;
     font-weight: bolder;
+    margin-right: 200px;
+}
+
+.action-large{
+   font-size:24px;
+   font-weight:bolder;
+}
+
+.action-small{
+   font-size:12px;
+}
+
+.action-container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:50px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.action-wrapper{
+    margin:50px;
+}
+
+.action-text{
+    color: white;
+    gap:5px;
+}
+
+.action-sign{
+    background-color: #F9FAF8;
+    color: black;
+    border:2px solid gray;
+    padding: 5px 20px;
+    font-weight: bolder;
+    text-align:center;
+    margin: 10px 0;
+    border-radius: 10px;
 }
