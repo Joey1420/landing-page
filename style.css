@@ -120,9 +120,27 @@ button:hover{
 
 .box-image{
     height: 150px;
-    width: 150px;
+    width: 200px;
 }
 
 .quote-wrapper{
     background-color: #E5E7EB;
+}
+
+.quote-container{
+    display:flex;
+    flex-direction: column;
+}
+
+.quote-text{
+    font-size:36px;
+    font-style:italic;
+    margin-left: 200px;
+    margin-top: 32px;
+}
+
+.quote-author{
+    align-self: flex-end;
+    margin-bottom:32px;
+    font-weight: bolder;
 }
