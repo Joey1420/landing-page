@@ -74,10 +74,6 @@ body {
     border-radius: 10px;
 }
 
-*{
-    border: 2px solid red;
-}
-
 button:hover{
     background-color: #5804FF;
     text-decoration: underline;
@@ -107,6 +103,7 @@ button:hover{
     display:flex;
     justify-content: center;
     gap:52px;
+    margin-bottom: 16px;
 }
 
 .box{
@@ -200,4 +197,6 @@ button:hover{
     display:flex;
     align-self:center;
     justify-content: center;
+    margin-top:18px;
+    margin-bottom: 18px;
 }
