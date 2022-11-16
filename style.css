@@ -91,6 +91,7 @@ button:hover{
     height:auto;
     width: 500px;
     margin: auto 7em;
+    border: 5px solid teal;
 }
 
 .second-title{
