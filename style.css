@@ -127,6 +127,8 @@ button:hover{
 
 .quote-wrapper{
     background-color: #E5E7EB;
+    border-top: 5px solid teal;
+    border-bottom: 5px solid teal;
 }
 
 .quote-container{
