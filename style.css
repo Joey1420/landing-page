@@ -116,6 +116,7 @@ button:hover{
 .text{
     font-weight:bolder;
     text-align:center;
+    text-decoration: underline 2px solid teal;
 }
 
 .box-image{
