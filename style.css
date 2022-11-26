@@ -18,7 +18,7 @@
     /*Right side, top heading*/
     display:flex;
     justify-content: space-between;
-    margin-left: auto;
+    margin: auto 7em;
     padding: 0;
     border:0;
     gap: 20px;
@@ -29,10 +29,11 @@
 .left-side{
     /*Left side, top heading*/
     display:flex;
+    justify-content: space-between;
     margin: 15px 5em 15px 5em;
     font-size:24px;
     font-weight:bold;
-    }
+}
 
 body {
    display:flex;
@@ -53,6 +54,7 @@ body {
     display:flex;
     justify-content: space-between;
     margin: 15px 5em 15px 5em;
+    align-self: center;
 }
 
 .hero-text, .main-text {
@@ -76,7 +78,7 @@ body {
     border-radius: 10px;
 }
 
-button:hover{
+.sign-up:hover{
     background-color: #5804FF;
     text-decoration: underline;
 }
@@ -88,7 +90,7 @@ button:hover{
 
 .header-2 img {
     /*Image selector */
-    height:auto;
+    height: auto;
     width: 500px;
     margin: auto 7em;
     border: 5px solid teal;
@@ -192,6 +194,12 @@ button:hover{
     border-radius: 10px;
 }
 
+.action-sign:hover{
+    color: white;
+    background-color:#1F2937;
+    text-decoration: underline;
+}
+
 .footer-text{
     font-size: 18px;
     color:white;
@@ -210,4 +218,8 @@ button:hover{
     margin-top:18px;
     margin-bottom: 18px;
 
+}
+
+*{
+    border: 2px solid red;
 }
