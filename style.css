@@ -3,7 +3,6 @@
     font-size:24px;
     display:flex;
     flex-direction: column;
-    align-items:center;
     background-color: #1F2937;
     color: #F9FAF8;
     font-family: sans-serif;
@@ -18,7 +17,7 @@
     /*Right side, top heading*/
     display:flex;
     justify-content: space-between;
-    margin: auto 7em;
+    margin-left: auto 7em;
     padding: 0;
     border:0;
     gap: 20px;
@@ -30,7 +29,7 @@
     /*Left side, top heading*/
     display:flex;
     justify-content: space-between;
-    margin: 15px 5em 15px 5em;
+    margin: 15px 33em 15px 1em;
     font-size:24px;
     font-weight:bold;
 }
@@ -53,7 +52,7 @@ body {
 .header-2 {
     display:flex;
     justify-content: space-between;
-    margin: 15px 5em 15px 5em;
+    margin: 15px 1em 15px 9em;
     align-self: center;
 }
 
@@ -218,8 +217,4 @@ body {
     margin-top:18px;
     margin-bottom: 18px;
 
-}
-
-*{
-    border: 2px solid red;
 }
