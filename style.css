@@ -14,13 +14,12 @@
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline 2px;
     color: teal;
 }
 
 .header-links {
     /*Right side, top heading*/
-    color: white;
     display:flex;
     justify-content: space-between;
     margin-left: auto 7em;
@@ -45,7 +44,7 @@ body {
    flex-direction: column;
    margin: 0;
    padding: 0;
-   font-family: Roboto, sans-serif;
+   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .hero-text {
