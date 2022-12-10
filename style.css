@@ -19,6 +19,12 @@ a:hover {
     color: teal;
 }
 
+a:visited {
+    text-decoation: none;
+    color: white;
+}
+
+
 .header-links {
     /*Right side, top heading*/
     display:flex;
