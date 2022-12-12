@@ -20,7 +20,7 @@ a:hover {
 }
 
 a:visited {
-    text-decoation: none;
+    text-decoration: none;
     color: white;
 }
 
@@ -129,7 +129,6 @@ body {
 .text{
     font-weight:bolder;
     text-align:center;
-    text-decoration: underline 2px solid teal;
 }
 
 .box-image{
