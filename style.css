@@ -90,6 +90,7 @@ body {
 }
 
 .sign-up:hover{
+    /*First button*/
     background-color: #5804FF;
     text-decoration: underline;
 }
@@ -205,6 +206,7 @@ body {
 }
 
 .action-sign:hover{
+    /*Second button*/
     color: white;
     background-color:#1F2937;
     text-decoration: underline;
